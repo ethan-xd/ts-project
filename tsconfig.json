@@ -71,7 +71,7 @@
         "noPropertyAccessFromIndexSignature": true,
         "noImplicitOverride": true,
         "exactOptionalPropertyTypes": true,
-        "moduleDetection": "force",
+        "moduleDetection": "force"
     },
     "include": ["src/**/*.ts", "*.eslintrc.js"]
 }
