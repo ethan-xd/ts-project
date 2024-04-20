@@ -13,7 +13,7 @@
         "lint:check": "eslint . --ext .ts",
         "lint:fix": "eslint . --ext .ts --fix",
         "build": "rimraf ./dist && tsc",
-        "run": "npm run build && node -r source-map-support/register dist/main",
+        "run": "npm run build && node --enable-source-maps dist/main",
         "prepare": "husky"
     },
     "author": "https://github.com/ethan-xd",
@@ -25,7 +25,6 @@
         "husky": "^9.0.11",
         "prettier": "^3.2.5",
         "rimraf": "^5.0.5",
-        "source-map-support": "^0.5.21",
         "typescript": "^5.4.5"
     }
 }
